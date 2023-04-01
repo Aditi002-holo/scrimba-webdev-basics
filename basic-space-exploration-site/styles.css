@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+
+body {
+    color: #82a5ca;
+
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.hero-section {
+    background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
+    background-size: cover;
+    padding: 10px 0 50px;
+}
+
+#main-logo {
+    width: 120px;
+}
+
+#title {
+    text-shadow: 0px 0px 4px #000;
+}
+
+.underline {
+    border-bottom: 5px solid #fff;
+}
+
+.btn {
+    padding: 8px 12px;
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+
+
+/* Learnings -
+1. when you add ttf files - add @font-face property!
+2. webp has better compression & compact
+3. Use text shadow property for readability */
+
+
